@@ -1,0 +1,143 @@
+body {
+    background: #232931;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #eee;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.box {
+    background: #2e323a;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.title {
+    text-align: center;
+    color: #f29736;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #9c9ea2;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #434a52;
+    border-radius: 4px;
+    background-color: #3b4148;
+    color: #eee;
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #f29736;
+    color: #eee;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #e38929;
+}
+
+.search-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.btn-search {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #f29736;
+    color: #eee;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 1rem;
+    margin: 6px;
+}
+
+.btn-search:hover {
+    background-color: #e38929;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.employee-table th, .employee-table td {
+    padding: 0.75rem;
+    border: 1px solid #434a52;
+    text-align: left;
+}
+
+.employee-table th {
+    background-color: #363b41;
+}
+
+.employee-table td {
+    background-color: #3b4148;
+}
+
+.btn-action {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #f29736;
+    color: #eee;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-action:hover {
+    background-color: #e38929;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end; /* Changed from flex-start to flex-end */
+    margin-top: 1rem;
+    gap: 0.5rem; /* Add spacing between the buttons */
+}
+
+.action-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.form-delete {
+    display: inline-block;
+    margin: 0;
+}

@@ -1,0 +1,146 @@
+body {
+    background: #232931;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login {
+    background: #232931;
+    width: 320px;
+    max-width: 100%;
+    padding: 1em;
+}
+
+.title_login { 
+    width: 100%;
+    float: left;
+    margin-bottom: 0.3em;
+    font-size: 2.3em;
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 1px #363b41 solid;
+    padding-bottom: 0.3em;
+    color: #f29736;
+}
+
+.hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+input {
+    background-image: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+.form {
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.form input[type="password"],
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="submit"] {
+    width: 100%;
+}
+
+.form_field {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form_input {
+    flex: 1;
+}
+
+.cadastro {
+    color: #eee;
+}
+
+.cadastro label,
+.cadastro input[type="text"],
+.cadastro input[type="email"],
+.cadastro input[type="password"],
+.cadastro input[type="submit"] {
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.cadastro label {
+    background-color: #363b41;
+    color: #9c9ea2;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.cadastro input[type="password"],
+.cadastro input[type="text"],
+.cadastro input[type="email"] {
+    background-color: #3b4148;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.cadastro input[type="password"]:focus,
+.cadastro input[type="password"]:hover,
+.cadastro input[type="text"]:focus,
+.cadastro input[type="text"]:hover,
+.cadastro input[type="email"]:focus,
+.cadastro input[type="email"]:hover {
+    background-color: #434a52;
+}
+
+.cadastro input[type="submit"] {
+    background-color: #f29736;
+    color: #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cadastro input[type="submit"]:focus,
+.cadastro input[type="submit"]:hover {
+    background-color: #e38929;
+}
+
+.resgatar-senha p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.resgatar-senha {
+    text-align: center;
+    color: #8e8e8e;
+}
+
+.resgatar-senha a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.resgatar-senha a:hover {
+    text-decoration: underline;
+    color: #f29736;
+}
